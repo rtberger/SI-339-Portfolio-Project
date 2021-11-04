@@ -6,10 +6,14 @@ header{
     border: #CCC5B9 solid 3px;
 }
 
-a{
+header a{
     font-size: 18px;
     text-decoration: none;
     color: #FFFCF2;
+}
+
+header a:hover{
+    color: #EB5E28;
 }
 
 .skip a{
@@ -98,6 +102,31 @@ main p{
 
 /* professional */
 /* animate resume */
+
 /* fun facts */
 
+.vacation{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto auto;
+}
+
+.vacation div{
+    border: #CCC5B9 solid 2px;
+    margin: 10px 0;
+}
+
+
 /* contact */
+.socialmedia{
+    display:flex;
+    flex-direction: column;
+    max-width:300px;
+    margin: auto auto;
+}
+
+.socialmedia a{
+    padding: 10px 0;
+
+}
