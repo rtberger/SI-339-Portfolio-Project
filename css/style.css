@@ -62,7 +62,7 @@ body{
 }
 
 h1{
-    padding: 15px 0px;
+    padding: 10px 0px;
     font-size: 3em;
     font-weight:bold;
 }
@@ -74,7 +74,7 @@ h2{
 
 footer{
     background-color: #403D39;
-    border: #CCC5B9 solid 3px;
+    border: #CCC5B9 solid 2px;
     color: #FFFCF2;
     text-align: center;
     margin-top: 10px;
@@ -86,20 +86,27 @@ p{
     border: #CCC5B9 solid 2px;
 }
 
-/* index/about me */
-.indexmain div{
-    margin: 0px 10px 20px;
+/* index/about me & professional*/
+.boxes div{
+    margin: 15px 10px 20px;
     border: #CCC5B9 solid 2px;
 }
 
-.indexmain p{
+.boxes p{
     border:none;
     border-bottom: #CCC5B9 solid 2px;
 }
 
 /* professional */
 
+.fill{
+    background: #ffffff;
+}
 
+.resume{
+    font-size: 2.5em;
+    font-weight: bold;
+}
 
 /* vacation */
 .vacation{
@@ -123,13 +130,13 @@ p{
 .socialmedia{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1.5fr 1.5fr 1.5fr .5fr 1.2fr .5fr;
     max-width:300px;
     margin: auto auto;
 }
 
 .socialmedia a{
-    margin: 10px 0;
+    margin: 25px 0;
 }
 
 .contact{
