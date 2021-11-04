@@ -44,11 +44,11 @@ nav a:visited{
 }
 
 li{
-    padding: 5px;
+    padding: 5px 15px;
     margin: auto auto;
     background-color: #252422;
     border: #CCC5B9 solid 2px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* BODY */
@@ -65,7 +65,11 @@ h1{
     padding: 15px 0px;
     font-size: 3em;
     font-weight:bold;
+}
 
+h2{
+    padding: 5px 0px;
+    font-size: 2.5em;
 }
 
 footer{
@@ -78,13 +82,11 @@ footer{
 
 p{
     padding: 15px;
-
     background-color: #403D39;
     border: #CCC5B9 solid 2px;
 }
 
 /* index/about me */
-
 .indexmain div{
     margin: 0px 10px 20px;
     border: #CCC5B9 solid 2px;
@@ -95,11 +97,11 @@ p{
     border-bottom: #CCC5B9 solid 2px;
 }
 
-/*  */
-
 /* professional */
 
-/* fun facts */
+
+
+/* vacation */
 .vacation{
     display:flex;
     flex-direction: column;
@@ -119,8 +121,9 @@ p{
 
 /* contact */
 .socialmedia{
-    display:flex;
-    flex-direction: column;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     max-width:300px;
     margin: auto auto;
 }
@@ -129,3 +132,13 @@ p{
     margin: 10px 0;
 }
 
+.contact{
+    padding: 15px;
+    background-color: #403D39;
+    border: #CCC5B9 solid 2px;
+}
+.contact p{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
