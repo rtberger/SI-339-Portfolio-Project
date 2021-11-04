@@ -80,10 +80,18 @@ footer{
     margin-top: 10px;
 }
 
+
+
 p{
     padding: 15px;
     background-color: #403D39;
     border: #CCC5B9 solid 2px;
+}
+
+footer p{
+    padding: 0;
+    border: none;
+    background-color:transparent;
 }
 
 /* index/about me & professional*/
