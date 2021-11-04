@@ -27,7 +27,7 @@ header a{
 .current a{
     color: #EB5E28 !important;
     font-weight: bold;
-    font-size: 1.55em;
+    font-size: 1.65em;
     text-decoration: underline;
 }
 
@@ -44,7 +44,7 @@ nav a:visited{
 }
 
 li{
-    padding: 5px 5px;
+    padding: 5px;
     margin: auto auto;
     background-color: #252422;
     border: #CCC5B9 solid 2px;
@@ -62,7 +62,7 @@ body{
 }
 
 h1{
-    padding-top: 10px;
+    padding: 15px 0px;
     font-size: 3em;
     font-weight:bold;
 
@@ -73,28 +73,31 @@ footer{
     border: #CCC5B9 solid 3px;
     color: #FFFCF2;
     text-align: center;
+    margin-top: 10px;
 }
 
-main p{
-    padding: 20px;
+p{
+    padding: 15px;
+
     background-color: #403D39;
-    border-bottom: #CCC5B9 solid 2px;
+    border: #CCC5B9 solid 2px;
 }
 
 /* index/about me */
 
 .indexmain div{
-    display: grid;
-    margin: 15px 10px;
+    margin: 0px 10px 20px;
     border: #CCC5B9 solid 2px;
-    /* grid-template-columns: ;
-    grid-template-rows: ; */
+}
+
+.indexmain p{
+    border:none;
+    border-bottom: #CCC5B9 solid 2px;
 }
 
 /*  */
 
 /* professional */
-/* animate resume */
 
 /* fun facts */
 .vacation{
@@ -109,6 +112,10 @@ main p{
     margin: 10px 0;
 }
 
+.vacation p{
+    border:none;
+    border-top: #CCC5B9 solid 2px;
+}
 
 /* contact */
 .socialmedia{
@@ -119,20 +126,6 @@ main p{
 }
 
 .socialmedia a{
-    padding: 10px 0;
-
+    margin: 10px 0;
 }
 
-/* 
-@media screen {
-    .parallax{
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        height:350px;
-        background-image:url("..");   
-        color:#000000;
-        font-size: 2em;
-    }
-}
- */
