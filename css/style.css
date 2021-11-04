@@ -12,10 +12,6 @@ header a{
     color: #FFFCF2;
 }
 
-header a:hover{
-    color: #EB5E28;
-}
-
 .skip a{
     background-color: #252422;
     right: 0;
@@ -81,30 +77,26 @@ footer{
 
 main p{
     padding: 20px;
-    border: #000000 solid 2px;
+    background-color: #403D39;
+    border-bottom: #CCC5B9 solid 2px;
 }
 
-/* index */
+/* index/about me */
 
-.indexmain{
-    display: gr
+.indexmain div{
+    display: grid;
+    margin: 15px 10px;
+    border: #CCC5B9 solid 2px;
+    /* grid-template-columns: ;
+    grid-template-rows: ; */
 }
 
-.parallax{
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height:350px;
-    background-image:url("../images/ryan.jpg");   
-    color:#000000;
-    font-size: 2em;
-}
+/*  */
 
 /* professional */
 /* animate resume */
 
 /* fun facts */
-
 .vacation{
     display:flex;
     flex-direction: column;
@@ -130,3 +122,17 @@ main p{
     padding: 10px 0;
 
 }
+
+/* 
+@media screen {
+    .parallax{
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        height:350px;
+        background-image:url("..");   
+        color:#000000;
+        font-size: 2em;
+    }
+}
+ */
