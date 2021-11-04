@@ -2,17 +2,18 @@
 /* NAVIGATION */
 
 header{
-    background-color: #293241;
+    background-color: #403D39;
+    border: #CCC5B9 solid 3px;
 }
 
 a{
     font-size: 18px;
     text-decoration: none;
-    color: #E0FBFC;
+    color: #FFFCF2;
 }
 
 .skip a{
-    background-color: #3D5A80;
+    background-color: #252422;
     right: 0;
     padding: 6px;
     z-index: 1;
@@ -24,9 +25,9 @@ a{
 }
 
 .current a{
-    color: #EE6C4D !important;
+    color: #EB5E28 !important;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.55em;
     text-decoration: underline;
 }
 
@@ -39,22 +40,22 @@ nav ul{
 }
 
 nav a:visited{
-    color: #E0FBFC;
+    color: #FFFCF2;
 }
 
 li{
     padding: 5px 5px;
     margin: auto auto;
-    background-color: #3D5A80;
-    border: #E0FBFC solid 2px;
+    background-color: #252422;
+    border: #CCC5B9 solid 2px;
     border-radius: 5px;
 }
 
 /* BODY */
 body{
     font-family: Garamond;
-    background-color: #3D5A80;
-    color: #E0FBFC;
+    background-color: #252422;
+    color: #FFFCF2;
     text-align: center;
     margin: auto auto;
     font-size: 16px;
@@ -68,12 +69,13 @@ h1{
 }
 
 footer{
-    background-color: #000;
-    color: #fff;
+    background-color: #403D39;
+    border: #CCC5B9 solid 3px;
+    color: #FFFCF2;
     text-align: center;
 }
 
-p{
+main p{
     padding: 20px;
     border: #000000 solid 2px;
 }
@@ -86,7 +88,6 @@ p{
 
 .parallax{
     background-attachment: fixed;
-    padding: 5px 0;
     background-position: center;
     background-size: cover;
     height:350px;
@@ -96,7 +97,7 @@ p{
 }
 
 /* professional */
-
+/* animate resume */
 /* fun facts */
 
 /* contact */
