@@ -1,9 +1,102 @@
-body{
-    height:auto;
+/* general */
+/* NAVIGATION */
+
+header{
+    background-color: #293241;
 }
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E0FBFC;
+}
+
+.skip a{
+    background-color: #3D5A80;
+    right: 0;
+    padding: 6px;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+}
+.skip a:focus{
+    top: inherit;
+}
+
+.current a{
+    color: #EE6C4D !important;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+nav ul{
+    padding: 10px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+nav a:visited{
+    color: #E0FBFC;
+}
+
+li{
+    padding: 5px 5px;
+    margin: auto auto;
+    background-color: #3D5A80;
+    border: #E0FBFC solid 2px;
+    border-radius: 5px;
+}
+
+/* BODY */
+body{
+    font-family: Garamond;
+    background-color: #3D5A80;
+    color: #E0FBFC;
+    text-align: center;
+    margin: auto auto;
+    font-size: 16px;
+}
+
+h1{
+    padding-top: 10px;
+    font-size: 3em;
+    font-weight:bold;
+
+}
+
 footer{
     background-color: #000;
     color: #fff;
     text-align: center;
-    vertical-align: bottom;
 }
+
+p{
+    padding: 20px;
+    border: #000000 solid 2px;
+}
+
+/* index */
+
+.indexmain{
+    display: gr
+}
+
+.parallax{
+    background-attachment: fixed;
+    padding: 5px 0;
+    background-position: center;
+    background-size: cover;
+    height:350px;
+    background-image:url("../images/ryan.jpg");   
+    color:#000000;
+    font-size: 2em;
+}
+
+/* professional */
+
+/* fun facts */
+
+/* contact */
