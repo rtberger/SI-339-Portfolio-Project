@@ -13,15 +13,7 @@ header a{
 }
 
 .skip a{
-    background-color: #252422;
-    right: 0;
-    padding: 6px;
-    z-index: 1;
-    position: absolute;
-    top: -40px;
-}
-.skip a:focus{
-    top: inherit;
+    display: none;
 }
 
 .current a{
@@ -89,7 +81,7 @@ p{
 }
 
 footer p{
-    padding: 0;
+    padding: 5px;
     border: none;
     background-color:transparent;
 }
@@ -106,7 +98,6 @@ footer p{
 }
 
 /* professional */
-
 .fill{
     background: #ffffff;
 }
@@ -120,7 +111,7 @@ footer p{
 .vacation{
     display:flex;
     flex-direction: column;
-    max-width: 300px;
+    width: 300px;
     margin: auto auto;
 }
 
@@ -156,4 +147,108 @@ footer p{
     border: none;
     padding: 0;
     background-color: transparent;
+}
+
+@media screen and (min-width: 700px){
+    .skip a{
+        background-color: #252422;
+        display: block;
+        right: 3px;
+        padding: 1px;
+        z-index: 1;
+        position: absolute;
+        top: -40px;
+    }
+    .skip a:focus{
+        top: inherit;
+    }
+
+    /* general  */
+    header a{
+        font-size: 30px;
+        padding: 35px;
+    }
+    h1{
+        font-size: 4em;
+    }
+    .current a{
+        font-size: 3em;
+    }
+
+    .travelp{
+        font-size: 2em;
+    }
+
+    footer{
+        margin-top: 30px;
+    }
+
+    footer p{
+        font-size: 1.5em;
+    }
+
+    /* aboutme */
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0px 10px;
+        align-items: center;
+    }
+    .boxes div{
+        width: 75%;
+    }
+
+    .boxes p{
+        font-size: 1.5em;
+    }
+    
+    /* contact */
+    .socialmedia{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .5fr 1fr .5fr 1fr .5fr;
+        max-width: 100%;
+    }
+    .media{
+        font-size: 1.5em;
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+    .insta{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .facebook{
+        grid-column: 2/ 3;
+        grid-row: 2 / 3;
+    }    
+    .linkedin{
+        grid-column: 3/ 4;
+        grid-row: 2 / 3;
+    }
+    .email{
+        font-size: 1.5em;
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+    .mailto{
+        grid-column: 1/4;
+        grid-row: 4 / 5;
+    }
+    .phone{
+        grid-column: 1 / 4;
+        grid-row: 5 / 6;
+        font-size: 1.5em;
+    }
+
+    /* travel */
+    .vacation{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 600px;
+    }
+
+    .vacation p{
+        font-size: 2em;
+    }
 }
