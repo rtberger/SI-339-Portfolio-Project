@@ -251,4 +251,21 @@ footer p{
     .vacation p{
         font-size: 2em;
     }
+
+    /* features */
+    .parallax{
+        background-attachment: fixed; /* Parallax effect */
+        background-position: center; /* Parallax effect */
+        background-size: cover; /* Parallax effect */
+        overflow:hidden;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .skip a{
+        font-size: 3em;
+        top: -60px;
+    }
+
 }
